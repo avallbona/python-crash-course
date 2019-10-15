@@ -58,11 +58,12 @@ print(max(a))
 # iteration
 for x in b:
     print("element: {}".format(x))
+    print(f"element: {x}")
 
 # iteration with enumerate
 for i, x in enumerate("hello world!!!"):
     print("element: {} of {}".format(i, x))
 
 # sorted
-a3 = {5, 4, 1, 6, 7, 8, 11}
+a3 = [5, 4, 1, 6, 7, 8, 11]
 print(sorted(a3))
