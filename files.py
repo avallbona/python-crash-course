@@ -3,7 +3,7 @@ files
 """
 
 # with context manager
-with open('dummy_file.txt', 'w') as f:
+with open('dummy_file.txt', 'a') as f:
     f.write('this is a line')
 
 
