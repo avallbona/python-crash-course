@@ -2,10 +2,10 @@
 module example
 """
 
+
 def demo_func_1():
-    print('hola')
+    print("hola")
+
 
 def demo_func_2():
-    print('mundo')
-
-
+    print("mundo")

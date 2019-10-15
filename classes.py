@@ -1,4 +1,3 @@
-
 class A:
 
     dummy = 123
@@ -20,26 +19,24 @@ class A:
         return cls.__name__, cls.dummy
 
     def __repr__(self):
-        return f'this is the representation of {self.name}, {self.a} and {self.b}'
+        return f"this is the representation of {self.name}, {self.a} and {self.b}"
 
 
+op = A("pepe", 5, 4)
 
-op = A('pepe', 5, 4)
 
-
-print('static method')
+print("static method")
 print(op.sum(7, 8))
 
-print('instance method')
+print("instance method")
 print(op.sum_ab())
 
 
-print('class method')
+print("class method")
 print(A.demo())
 
 
 class OneMixin:
-
     def product(self):
         return self.a * self.b
 
@@ -47,13 +44,13 @@ class OneMixin:
 class B(A, OneMixin):
     pass
 
-varb = B('manuel', 8, 5)
 
-print('product')
+varb = B("manuel", 8, 5)
+
+print("product")
 print(varb.product())
 
 
 print(op)
 
 print(varb)
-
