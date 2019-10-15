@@ -7,7 +7,9 @@ def fun_mod_1(*args, **kwargs):
     return 'fun_mod_1'
 
 
-def fun_mod_2(*args, **kwargs):
+def another_fun_mod_1(*args, **kwargs):
     print(MY_CONSTANT)
-    return 'fun_mod_1'
+    return 'another_fun_mod_1'
 
+def demo():
+    return "this is demo from mod 1"
